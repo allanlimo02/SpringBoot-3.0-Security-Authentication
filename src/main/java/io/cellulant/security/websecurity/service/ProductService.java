@@ -21,7 +21,7 @@ public class ProductService {
     @Autowired
     private UserInfoRepository repository;
 
-    
+
     private PasswordEncoder passwordEncoder;
 
     @PostConstruct
